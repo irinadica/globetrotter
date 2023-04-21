@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.9697128851540616) 55%, rgba(61,0,0,0.9753151260504201) 96%);
+    overflow: hidden;
+}
+nav div{
+    display:flex; 
+    flex-direction: row;
+    font-size: 20px;
+    width: 400px;
+}
+nav a{
+    margin: auto;
+    text-decoration: none;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    height: 100%;
+    width: 80%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+.para{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px double #950101;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+main h1{
+    background: rgb(149,1,1);
+    background: radial-gradient(circle, rgba(149,1,1,1) 0%, rgba(149,1,1,0.364670868347339) 100%);
+    text-align: center;
+    font-weight: 500;
+    
+}
+footer{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.9697128851540616) 55%, rgba(61,0,0,0.9753151260504201) 96%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 150;
+}
+form input{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#submit{
+    width: 100px;
+    margin: auto;
+    border: 2px solid black;
+}
+form h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 40%;
+    margin: auto;
+}
+.sm_links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.sm_links a{
+    text-decoration: none;
+}
+
+#submit:hover{
+    background-color: #FF0000;
+    font-weight: 600;
+}
+@media screen and (min-width:900px) and (max-width: 1300px) {
+    nav{
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    nav div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        margin-left: 40px;
+        justify-content: left;
+        
+    }
+    
+    .post p{
+        font-size:  12px ;
+        width: 100%;
+    }
+    .post img{
+        width: 55%;
+    }
+  }
+
+
+
+  @media screen and (max-width:900px)  {
+    nav{
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    nav div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .post p{
+        font-size:  12px ;
+        width: 100%;
+    }
+    .post img{
+        width: 55%;
+    }
+  }
