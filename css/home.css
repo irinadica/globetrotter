@@ -40,7 +40,20 @@ nav a{
     height: 500px;
     position: relative;
 }
-
+#hero-text2{
+    position: absolute;
+    top: 200px;
+    opacity: 100%;
+    overflow: visible;
+    background: rgb(149,1,1);
+    background: radial-gradient(circle, rgba(149,1,1,1) 0%, rgba(149,1,1,0.364670868347339) 100%);
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:500;
+}
 .herotext{
     position: absolute;
     top: 200px;
