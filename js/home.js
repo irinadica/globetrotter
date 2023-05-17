@@ -2,6 +2,7 @@
 
 $(document).ready(function()
 {
+    
     $(".rm1").hide();
     function mq(x){
         if(x.matches)
@@ -15,12 +16,14 @@ $(document).ready(function()
                     {
                         $(".rm1").show();
                         $("#post1").css({"height": "auto"});
+                        $("#p1").css({"flex-direction":"column"});
                         $(".btn1").text("Read less");
                     } 
                     else 
                     {
                         $(".rm1").hide();
                         $("#post1").css({"height": "auto"});
+                        $("#p1").css({"flex-direction":"row"});
                         $(".btn1").text("Read More");
                     }
                     
@@ -50,6 +53,7 @@ $(document).ready(function()
     }
 
     var x=window.matchMedia("(max-width:700px)");
+    
     mq(x);
     x.addListener(mq);
 
@@ -67,12 +71,14 @@ $(document).ready(function()
                     {
                         $(".rm2").show();
                         $("#post2").css({"height": "auto"});
+                        $("#p2").css({"flex-direction":"column"});
                         $(".btn2").text("Read less");
                     } 
                     else 
                     {
                         $(".rm2").hide();
                         $("#post2").css({"height": "auto"});
+                        $("#p2").css({"flex-direction":"row"});
                         $(".btn2").text("Read More");
                     }
                     
@@ -119,12 +125,14 @@ $(document).ready(function()
                     {
                         $(".rm3").show();
                         $("#post3").css({"height": "auto"});
+                        $("#p3").css({"flex-direction":"column"});
                         $(".btn3").text("Read less");
                     } 
                     else 
                     {
                         $(".rm3").hide();
                         $("#post3").css({"height": "auto"});
+                        $("#p3").css({"flex-direction":"row"});
                         $(".btn3").text("Read More");
                     }
                     
@@ -172,12 +180,14 @@ $(document).ready(function()
                     {
                         $(".rm4").show();
                         $("#post4").css({"height": "auto"});
+                        $("#p4").css({"flex-direction":"column"});
                         $(".btn4").text("Read less");
                     } 
                     else 
                     {
                         $(".rm4").hide();
                         $("#post4").css({"height": "auto"});
+                        $("#p4").css({"flex-direction":"row"});
                         $(".btn4").text("Read More");
                     }
                     
