@@ -1,2 +1,16 @@
 User-agent: *
 Disallow: /cambodia.html
+Disallow: /earth.html
+Disallow: /sitemap.xml
+Allow: /afterhome.html
+Allow: /discover.html
+Allow: /iceland.html
+Allow: /index.html
+Allow: /indonesia.html
+Allow: /italy.html
+Allow: /japan.html
+Allow: /jordan.html
+Allow: /login.html
+Allow: /madagascar.html
+Allow: /portugal.html
+Allow: /signup.html
